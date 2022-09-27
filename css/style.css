@@ -16,8 +16,70 @@
     border-color:1px solid rgb(9, 175, 184);
     display:inline;   
 }
+a{
+    color: white;
+}
 
 .logo{
     height: 56px;
     margin-left: 20px; 
+}
+.footer{
+    background-color: black;
+}
+.footer-box{
+    margin-top: 20px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-text{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.footer-text:hover{
+    font-size: 17px;
+    transition: 0.5s;
+    text-decoration:underline;
+    padding: 10px;
+}
+.footer-payment{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+}
+.payment-word{
+    color: black;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 30px;
+
+}
+.payment-img{
+    height: 55px;
+    width: 400px;
+    margin-left: 45px;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+.footer-link{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.footer-icon{
+    height: 17px;
+    background-color: white;
+    padding-top: 10px;
+}
+.footer-contact{
+    color: blue;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.margin-bottom{
+    margin-bottom: 20px;
 }
