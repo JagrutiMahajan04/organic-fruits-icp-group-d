@@ -4,16 +4,20 @@
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 80px ;
+    display: flex;
     background-image: linear-gradient(0deg, #76fc5c 0%, #fcfaab 24%, #8ef7e8 49%, #9cf7e0 75%, #4dff2e 100%);
     
 }
-.left-nav{
-    height: 50px;
-    width: 100px;
-    border-color: crimson;
+.search{
+    height: 30px;
+    width: 40%;
+    margin: 10px 0px 10px 400px;
+    border-radius: 20px;
+    border-color:1px solid rgb(9, 175, 184);
+    display:inline;   
 }
+
 .logo{
     height: 56px;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
