@@ -14,6 +14,7 @@
 }
 .card-blue:hover{
     transform: scale(1.2);
+    transition: 00.5s;
 }
 .card-red{
     background-color: rgb(241, 248, 250);
@@ -31,6 +32,7 @@
 }
 .card-red:hover{
     transform: scale(1.2);
+    transition: 00.5s;
 }
 
 
@@ -39,15 +41,16 @@
     display: block;
     height: 50px;    
     margin-left:72px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .cart:hover{
     cursor: pointer; 
-    background-color: rgb(30, 247, 77);
     border-radius: 4px;
     padding: 4px;
-    box-shadow: 4px 4px 5px rgb(7, 198, 32);
+    box-shadow: 4px 4px 5px rgb(128, 128, 128);
     transition: 0.5s;
+    background-color: rgb(12, 243, 12);
+    border-radius: 20px;
 }
 
 .container{
