@@ -1,0 +1,120 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.left{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.middle{
+    width: 65%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+
+.right{
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+ 
+.right-1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 100px;
+}
+
+.log-sign{
+    border: none;
+    color: white;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 70px;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 80px ;
+    display: flex;
+}
+.search{
+    height: 30px;
+    width: 40%;
+    margin-left: 290px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color:1px solid rgb(9, 175, 184);
+    display:inline;   
+}
+.sign-up{
+    text-decoration: none;
+    
+}
+.or{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.log-sign{
+    border: none;
+    color: white;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.right-header{
+    margin-left: 190px;
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+}
+.nav-btn-click{
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.nav-btn-click:hover{
+    text-decoration: underline;
+}
+button{
+    border: none;
+    background-color: aqua;
+    font-size: 20px;
+}
+.header-bg-clr{
+    background-color: black;
+}
+ 
