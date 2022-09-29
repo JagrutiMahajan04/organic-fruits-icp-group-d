@@ -2,7 +2,7 @@
     height: 80px;
     width: 100%;
     display: flex;
-    
+    margin-top: 10px;
     
 }
 
@@ -62,6 +62,11 @@
     width: 70px;
 }
 
+.header-bg-clr{
+    background-color:  #08AEEA 0%;
+}
+ 
+
 .header{
     height: 60px;
     width: 100%;
@@ -69,6 +74,8 @@
     padding-bottom: 4px;
     border-radius: 80px ;
     display: flex;
+    margin-top: 10px;
+    background-color:  #08AEEA 0%;
 }
 .search{
     height: 30px;
@@ -76,6 +83,7 @@
     margin-left: 290px;
     margin-top: 10px;
     border-radius: 20px;
+    background-color: rgb(241, 248, 250);
     border-color:1px solid rgb(9, 175, 184);
     display:inline;   
 }
@@ -115,6 +123,6 @@ button{
     font-size: 20px;
 }
 .header-bg-clr{
-    background-color: black;
+    background-color: rgb(128, 251, 143);
 }
  
