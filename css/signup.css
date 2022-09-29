@@ -12,12 +12,15 @@ body{
 .registration-form{
     position: absolute;
     top: 50%;
-    background-color:rgba(0,0,0,.56);
+    background-color:rgb(241, 248, 250);
     left :50%;
     transform: translate(-50%, -50%);
     width: 300px;   
-    border-radius: 14px;
+    /* border-radius: 14px; */
+    border: solid rgb(157, 157, 252);
+    box-shadow: darkcyan 8px 8px 5px;
 }
+
 
 .registration-formA{
     /* border: 3px solid red; */
@@ -54,4 +57,11 @@ body{
     width: 50%;
     border-radius: 7px;
     border:none;
+    margin-bottom: 10px;
+}
+
+.registration-form button:hover{
+    transition: .3s;
+    cursor: pointer;
+    background-color:darkcyan;
 }
