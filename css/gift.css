@@ -1,16 +1,18 @@
+
+
 .card-blue{
     background-color: rgb(241, 248, 250);
     height: 350px;
     width: 250px;
     border-radius: 6px;
     display:inline-block;
-    border: solid rgb(157, 157, 252);
+    border: solid #AA076B;
     padding-left: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
     margin: auto;
     justify-content: space-between;
-    box-shadow: darkcyan  2px 5px; 
+    box-shadow: #e29fc8  2px 5px; 
 }
 .card-blue:hover{
     transform: scale(1.2);
@@ -22,13 +24,13 @@
     width: 250px;
     border-radius: 6px;
     display:inline-block;
-    border: solid rgb(250, 106, 123);
+    border: solid #AA076B;
     padding-left: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
     margin: auto;
     justify-content: space-between;
-    box-shadow: rgb(250, 23, 35)  2px 5px; 
+    box-shadow: #e29fc8  2px 5px; 
 }
 .card-red:hover{
     transform: scale(1.2);
@@ -40,13 +42,13 @@
     width: 250px;
     border-radius: 6px;
     display:inline-block;
-    border: solid rgb(128, 251, 143);
+    border: solid #AA076B;
     padding-left: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
     margin: auto;
     justify-content: space-between;
-    box-shadow: rgb(36, 206, 2)  2px 5px; 
+    box-shadow: #e29fc8  2px 5px; 
 }
 .card-green:hover{
     transform: scale(1.2);
@@ -58,19 +60,19 @@
     width: 250px;
     border-radius: 6px;
     display:inline-block;
-    border: solid rgb(251, 251, 128);
+    border: solid #AA076B;
     padding-left: 50px;
     padding-top: 6px;
     padding-bottom: 6px;
     margin: auto;
     justify-content: space-between;
-    box-shadow: rgb(252, 241, 20)  2px 5px; 
+    box-shadow: #e29fc8  2px 5px; 
 }
-
 .card-yellow:hover{
     transform: scale(1.2);
     transition: 00.5s;
 }
+
 
 .cart{
     display: block;
@@ -82,7 +84,7 @@
     cursor: pointer; 
     border-radius: 4px;
     padding: 4px;
-    box-shadow: 4px 4px 5px rgb(128, 128, 128);
+    box-shadow: #e29fc8  2px 5px;
     transition: 0.3s;
     background-color: rgb(12, 243, 12);
     border-radius: 20px;
@@ -96,7 +98,7 @@
 }
 .img{
     height: 150px;
-    margin-left:6px;
+    margin-left:20px;
     display: block;
     border-radius: 10px solid white;
     justify-content:center;
@@ -136,14 +138,14 @@ i{
     width: 40%;
     margin: 20%;
     border-radius: 10px ;
-    border: 2px solid rgb(72, 169, 2);
+    border: 2px solid black;
     font-family: 'san-serif';
     font-size: 20px;
-    background-color: rgb(8, 244, 31);
-    color: bisque;
+    background-color: #AA076B;
+    color: white;
 }
 .click-btn:hover{
-    border: 2px solid rgb(72, 169, 2);
+    border: 2px solid  #AA076B;
     font-family: 'san-serif';
     font-size: 20px;
     background-color: rgb(225, 239, 235);
@@ -152,13 +154,13 @@ i{
 }
 a{
     text-decoration: none;
-    color: rgb(10, 10, 227);
+    color: white;
     
 }
 .product-head{
-    border: 2px solid rgb(13, 243, 13);
-    background-color: rgb(165, 252, 139);
-    color: rgb(0, 106, 255);
+    border: 2px solid  #AA076B;
+    background-color: white;
+    color: black;
     height: 10%;
     width: 20%;
     margin-left:40%;
@@ -166,20 +168,21 @@ a{
     padding-top:2px;
     padding-bottom: 2px;
     margin-top: 40px;
-    box-shadow: 2px 2px 4px rgb(1, 165, 1);
+    box-shadow: #e29fc8  2px 5px;
 }
+
 .back-btn{
     height: 12%;
     width: 6%;
     margin-top:8%;
     margin-left: 47%;
     border-radius: 10px ;
-    border: 2px solid rgb(72, 169, 2);
+    border: 2px solid black;
     font-family: 'san-serif';
     font-size: 20px;
-    background-color: rgb(8, 244, 31);
+    background-color:  #AA076B;
     color: bisque;
-    box-shadow: 2px 2px 4px rgb(1, 98, 1);
+    box-shadow: #e29fc8  2px 5px;
     
 }
 .back-btn:hover{
@@ -191,3 +194,4 @@ a{
     
      
 }
+
