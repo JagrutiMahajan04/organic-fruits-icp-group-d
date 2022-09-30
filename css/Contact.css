@@ -3,6 +3,21 @@
     height:150vh;
     background-color:rgb(243, 248, 250);
 }
+
+.product-head{
+    border: 2px solid rgb(13, 243, 13);
+    background-color: rgb(165, 252, 139);
+    color: rgb(0, 106, 255);
+    height: 10%;
+    width: 20%;
+    margin-left:40%;
+    border-radius: 4px ;
+    padding-top:2px;
+    padding-bottom: px;
+    margin-top:40px;
+    box-shadow: 2px 2px 4px rgb(1, 165, 1);
+ }
+     
 .Get-In-Touch{
     font-size: 25px;
     padding: 50px;

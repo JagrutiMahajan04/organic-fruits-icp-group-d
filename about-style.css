@@ -1,6 +1,35 @@
+<<<<<<< HEAD
+
+.product-head{
+   border: 2px solid rgb(13, 243, 13);
+   background-color: rgb(165, 252, 139);
+   color: rgb(0, 106, 255);
+   height: 10%;
+   width: 20%;
+   margin-left:40%;
+   border-radius: 4px ;
+   padding-top:2px;
+   padding-bottom: px;
+   margin-top:40px;
+   box-shadow: 2px 2px 4px rgb(1, 165, 1);
+   justify-content: center;
+   align-items: center;
+}
+    
+.title{
+      justify-content: center;
+      align-items: center; 
+      margin-left: 500px;
+      font-size: 60px;
+      margin-top: 10px;
+   }
+  
+  .container{
+=======
 .navbar{
     height: 80px;
     width: 100%;
+>>>>>>> 503bb6e13203a898eef66dc887d15d5fb81f27cd
     display: flex;
     margin-top: 10px;
     
