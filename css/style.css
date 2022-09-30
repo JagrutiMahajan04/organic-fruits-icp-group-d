@@ -153,28 +153,44 @@ button{
 .container-home{
     display: flex;
     width: 100%;
+    height: 600px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 .border-home{
-    border: 1px solid black;
-    width: 50%;
+    box-shadow:1px 1px 10px #05a735;
+    border-radius: 90px;
+    
 }
  
 .home-img{
-    height: 350px;
-    margin-top: 80px;
-    margin-left: 90px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 100px;
    
 }
 
+
 .home1{
-    width: 700px;
-    height: 500px;
+    width: 40%px;
+    height:500px;
+    margin-left: 40px;
+    margin-top: 50px;
+    
 }
+.home2{
+    width: 40%px;
+    height:500px;
+    margin-left: 40px;
+    margin-top: 50px;
+}    
 .slogon{
     margin-left: 80px;
+    margin-top: 100px;
+    
+    
 }
 .slogon-logo{
 
@@ -191,7 +207,7 @@ button{
 }
 
 .gif{
-    height: 450px;
+    height: 10px;
     animation:alternate-reverse;
 }
 
