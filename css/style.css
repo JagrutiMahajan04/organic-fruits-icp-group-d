@@ -11,7 +11,7 @@
 }
 
 .logo{
-    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 30px;
     height: 70px;
     border-radius: 50%;
@@ -37,6 +37,7 @@
     justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
+    border-radius:10px;
 }
 
 .right{
@@ -62,10 +63,10 @@
     font-weight: bold;
     font-size: 10px;
     margin-left: 100px;
+    margin-top:16px;
 }
 
 .log-sign{
-    border: none;
     color: white;
     margin-left: 0px;
     font-size: 20px;
@@ -74,7 +75,10 @@
 }
 
 .header-bg-clr{
-    background-color:  #08AEEA 0%;
+    background-color:  #45cafb ;
+    width:100%;
+    height:100px;
+    border-radius:8px;
     
 }
  
@@ -85,7 +89,7 @@
     padding-top: 4px;
     padding-bottom: 4px;
     display: flex;
-    margin-top: 10px;
+    margin-top: px;
     background-color:  #08AEEA 0%;
     border-radius: 10px;
 }
@@ -93,24 +97,36 @@
     height: 30px;
     width: 40%;
     margin-left: 290px;
-    margin-top: 30px;
     border-radius: 20px;
     background-color: rgb(241, 248, 250);
     border-color:1px solid rgb(9, 175, 184);
     display:inline; 
-    text-align: center;
-
 }
 .sign-up{
     text-decoration: none;
-    
+    padding:4px;
+    padding-right: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #018abb; 
+}
+.sign-up:hover{
+    color:rgb(131, 251, 101);
+    transition: 0.2s;
 }
 
 .log-sign{
+    height: 30px;
     border: none;
     color: white;
     margin-left: 0px;
-    font-size: 20px;
+    font-size: 18px;
+    background-color: rgb(131, 251, 101);
+    border: 8px solid rgb(3, 5, 102);
+    
+}
+.log-sign:hover{
+    background-color: #018abb;
 }
 .right-header{
     margin-left: 190px;
@@ -157,6 +173,9 @@ button{
     width: 700px;
     height: 500px;
 }
+.slogon{
+    margin-left: 80px;
+}
 .slogon-logo{
 
     margin-top: 10px;
@@ -166,6 +185,9 @@ button{
     padding: 5px;
     box-shadow:1px 1px 1px 2px #08AEEA;
     
+}
+.slogon1{
+    font-family:cursive ;color: #05a735;
 }
 
 .gif{
