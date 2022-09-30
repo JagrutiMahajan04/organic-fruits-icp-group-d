@@ -1,7 +1,7 @@
 
 .body{
     height: 1760px;
-    width: 100%;
+    width: 99%;
     justify-content: center;
     align-items: center;
     padding-top: 0px;
@@ -58,7 +58,14 @@
   }
 
   .about:hover{
-   transform: scale(1.2);
+   height: 478px;
+   width: 320px;
+   transition: 00.5s;
+}
+
+.about2:hover{
+   height: 468px;
+   width: 310px;
    transition: 00.5s;
 }
 
