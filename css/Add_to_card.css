@@ -7,6 +7,8 @@
 body{
     /* background-color: rgba(58, 52, 52, 0.329); */
     background-color:ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
+    background-size: cover;
 }
 
 .Add-to-card{

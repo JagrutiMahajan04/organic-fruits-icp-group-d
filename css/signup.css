@@ -4,10 +4,13 @@
     font-family: sans-serif;  
     box-sizing:border-box; 
     
+
 }
 
 body{
-    background-color: ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
+    background-size: cover;
+    /* background-color: ghostwhite; */
 }
 .registration-form{
     position: absolute;
@@ -58,6 +61,8 @@ body{
     border-radius: 7px;
     border:none;
     margin-bottom: 10px;
+    border: solid rgb(157, 157, 252);
+
 }
 
 .registration-form button:hover{

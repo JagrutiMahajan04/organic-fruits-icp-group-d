@@ -7,6 +7,8 @@
 body{
     /* background-color: rgba(58, 52, 52, 0.329); */
     background-color:ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
+    background-size: cover;
 }
 
 .login-form{
@@ -62,6 +64,8 @@ body{
     border: none;
     border-radius: 5px;
     /* border: 0; */
+    border: solid rgb(157, 157, 252);
+
 
 }
 
