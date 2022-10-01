@@ -36,8 +36,15 @@
 }
 .Small-icons-info{
     font-size: 15px;
-    padding-left: 50px;
-    
+    padding-left: 50px;    
+}
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
+.contact-link:hover{
+    color: blue;
+    text-decoration:underline;
 }
 .Follow-opt-img{
     height: 25px;
