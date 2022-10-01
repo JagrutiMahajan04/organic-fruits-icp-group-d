@@ -25,9 +25,10 @@ body{
     padding: 30px;
     /* background-color: whitesmoke; */
     /* border-radius: 14px; */
-    border: solid rgb(157, 157, 252);
-    box-shadow: darkcyan 8px 8px 5px;
+    border: solid rgb(250, 106, 123);   
     background-color:rgb(241, 248, 250);
+    box-shadow: rgb(250, 23, 35) 8px 8px 5px;
+
 
 }
 
@@ -64,7 +65,7 @@ body{
     border: none;
     border-radius: 5px;
     /* border: 0; */
-    border: solid rgb(157, 157, 252);
+    border: solid rgb(250, 106, 123);
 
 
 }
