@@ -1,5 +1,9 @@
 body{
-    background-color:plum;
+    width: 100%;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .contactUs-page{
     width:100%;

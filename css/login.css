@@ -4,10 +4,13 @@
     font-family: sans-serif;
 }
 
-body{
-    /* background-color: rgba(58, 52, 52, 0.329); */
-    background-color:ghostwhite;
+.body{
+    width: 100%;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .login-form{
     width: 300px;
