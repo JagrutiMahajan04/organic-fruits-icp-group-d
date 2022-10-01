@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(201, 192, 200);
+}
 .card-blue{
     background-color: rgb(241, 248, 250);
     height: 350px;
@@ -298,6 +301,7 @@ i{
     font-size: 20px;
     background-color: rgb(225, 239, 235);
     transition: 1s;
-    
-     
+}
+a{
+    text-decoration: none;
 }
