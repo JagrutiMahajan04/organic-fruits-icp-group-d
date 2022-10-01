@@ -16,16 +16,19 @@
     padding-bottom: px;
     margin-top:40px;
     box-shadow: 2px 2px 4px rgb(1, 165, 1);
+    text-align: center;
  }
      
 .Get-In-Touch{
     font-size: 25px;
     padding: 50px;
     font-weight: bold;
+    
 }
 .Small-icons-Name{
     font-size: 20px;
     font-weight: bold;
+    
 }
 .small-icons{
     height: 20px;
@@ -34,6 +37,7 @@
 .Small-icons-info{
     font-size: 15px;
     padding-left: 50px;
+    
 }
 .Follow-opt-img{
     height: 25px;
