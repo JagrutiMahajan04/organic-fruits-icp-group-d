@@ -4,11 +4,12 @@
     font-family: sans-serif;
 }
 
-.body{
-    width: 100%;
-    background-image: url(../images/bg2.jfif);
+body{
+    
+    background-color: rgb(252, 164, 178);
+    /*background-image: url(../images/bg2.jfif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 .Add-to-card{
