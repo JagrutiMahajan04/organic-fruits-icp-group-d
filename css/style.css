@@ -12,7 +12,7 @@ body{
     padding-top: 10px; 
     background: linear-gradient(to top, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     border-radius: 4px;
-    padding-bottom:20px;
+    padding-bottom: 30px;
 }
 
 .left{
@@ -44,7 +44,13 @@ body{
     font-size: 20px;
 }
 
+.nav-top{
+    margin-left: -70px;
+}
 
+.with-word{
+    text-align: start;
+}
 
 
 .right{
@@ -65,7 +71,7 @@ body{
 .gift{
     height: 150px;
     margin:10px;
-    margin-left: 400px;
+    margin-left: 200px;
     border-radius: 4px;
     
 }
