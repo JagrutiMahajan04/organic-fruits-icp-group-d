@@ -5,28 +5,14 @@
 }
 
 body{
-<<<<<<< HEAD
-    
     background-color: rgb(252, 164, 178);
 
    /* background-image: url(../images/bg2.jfif);
     background-repeat: no-repeat;
     background-size: cover;*/
-=======
-    /* background-color: rgba(58, 52, 52, 0.329); */
-    background-color:ghostwhite;
-    background: url('../images/bg2.jfif') no-repeat;
-    background-size: cover;
->>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
 }
 
-.login-btn{
-    border: rgb(250,106,123) 2px solid;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 2px 10px 2px 10px;
 
-}
 
 button:hover{
     background-color: rgb(250,106,123);
@@ -34,11 +20,30 @@ button:hover{
     font-weight: bold;
     font-size: 23px;
     transition: 1s;
+    border:none ;
 }
 
 button{
-    border: none;
-    margin-top: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    height: 40px;
+    width:80px;
+    margin-left: 200px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 7, 47);
+    border:white;
+    box-shadow: 1px 1px 1px 2px rgb(250,106,123);
+    
+
+}
+.login-btn{
+    text-decoration: none;
+    color:white;
+}
+.login-btn:hover{
+    color: rgb(248, 7, 47);
+    
 }
 
 .f-awsm{
@@ -49,6 +54,10 @@ button{
     padding-left: 3px;
     padding-right: 3px;
     color: black;
+    
+}
+.cross{
+    text-decoration: none;
 }
 
 .login-form{
@@ -113,5 +122,7 @@ button{
 .login-form button:hover{
     transition: .3s;
     cursor: pointer;
-    background-color:darkcyan;
+    color: rgb(248, 7, 47);
+    background-color: white;
+    
 }
