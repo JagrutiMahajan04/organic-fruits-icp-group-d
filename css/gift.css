@@ -1,9 +1,10 @@
 
-.body{
-    width: 100%;
-    background-image: url(../images/bg2.jfif);
+body{
+    
+    background-color: rgb(250, 172, 185);
+    /*background: url(../images/bg2.jfif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 .gift{
     height: 200px;

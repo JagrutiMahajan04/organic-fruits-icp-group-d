@@ -1,10 +1,15 @@
 body{
 <<<<<<< HEAD
+background-color: rgb(252, 164, 178);
+    /*background: url(../images/bg2.jfif);   */
+=======
+<<<<<<< HEAD
     margin: 10px;
     background-color: #F8D49A;
 =======
     background-image: url(../images/bg2.jfif);   
 >>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
+>>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
  }
 
 .navbar{ 
@@ -12,8 +17,9 @@ body{
     width: 100%;
     display: flex; 
     padding-top: 10px; 
-    background: #AA076B;  
+    background: linear-gradient(to top, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     border-radius: 4px;
+    padding-bottom:20px;
 }
 
 .left{
@@ -27,6 +33,10 @@ body{
     justify-content: center;
     align-content: center;
     
+}
+.leftlogohome{
+    height: 60px;
+    border-radius: 80px;
 }
 
 .middle{
@@ -62,7 +72,7 @@ body{
 .gift{
     height: 150px;
     margin:10px;
-    margin-left: 200px;
+    margin-left: 400px;
     border-radius: 4px;
     
 }
@@ -100,10 +110,12 @@ body{
 .footer-text:hover{
     font-size: 17px;
     transition: 0.5s;
-    text-decoration:underline;
     padding: 10px;
+    color:white;
+    text-decoration: none;
     border: 1px solid white;
 }
+
 .footer1{
     height: 400px;
     width: 100%;
@@ -234,6 +246,14 @@ body{
     font-size: 15px; 
 }
 .sign-up:hover{
+<<<<<<< HEAD
+color: antiquewhite;
+border: 1px solid white;
+}
+.a:hover{
+    color :white;
+    text-decoration: none;
+=======
     text-decoration:underline;
     font-weight: bold;
     font-size: 18px; 
@@ -241,6 +261,7 @@ body{
 .or{
     margin-left: 5px;
     margin-right: 5px;
+>>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
 }
 .log-sign{
     margin-top: 15px;
@@ -252,6 +273,10 @@ body{
     width: 70px;
     height: 30px;
     background-color: white;
+}
+.log-sign:hover{
+    background-color: #AA076B;
+    color:beige;
 }
 .right-header{
     margin-left: 190px;
