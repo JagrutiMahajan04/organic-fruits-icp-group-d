@@ -1,10 +1,8 @@
 body{
     
-    background-color: rgb(252, 164, 178);
-
-    /*background: url(../images/bg2.jfif);
+    background: url(../images/bgimage1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
 }
 
 .card-blue{
@@ -106,9 +104,50 @@ body{
 .img{
     height: 150px;
     margin-left:6px;
+    
     display: block;
     border-radius: 10px solid white;
     justify-content:center;
+    
+}
+
+.product-head{
+    border: 2px solid rgb(250,106,123);
+    background-color: white;
+    color: rgb(0, 106, 255);
+    height: 10%;
+    width: 20%;
+    margin-left:40%;
+    border-radius: 6px ;
+    padding-top:2px;
+    padding-bottom: 2px;
+    margin-top: 40px;
+    box-shadow: 4px 4px 4px rgb(250,106,123);
+}
+
+.back-btn-apple{
+    border: 5px solid rgb(250,106,123);
+    margin-left: 650px;
+
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 15px;
+    padding:5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.back-btn-apple:hover{
+    background-color: brown;
+    border: 2px solid white;
+    padding:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.img-apple{
+    width: 60%;
+    margin-left: 20px;
 }
 .img-mango{
     height: 150px;
@@ -274,19 +313,7 @@ i{
 .a-green:hover{
     color:rgb(3, 141, 180);
 }
-.product-head{
-    border: 2px solid rgb(13, 243, 13);
-    background-color: rgb(165, 252, 139);
-    color: rgb(0, 106, 255);
-    height: 10%;
-    width: 20%;
-    margin-left:40%;
-    border-radius: 4px ;
-    padding-top:2px;
-    padding-bottom: 2px;
-    margin-top: 40px;
-    box-shadow: 2px 2px 4px rgb(1, 165, 1);
-}
+
 .back-btn{
     height: 12%;
     width: 6%;

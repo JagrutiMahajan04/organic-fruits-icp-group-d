@@ -1,10 +1,7 @@
 
 
-   .body{
+body{
       width: 100%;
-     /* background-image: url(./images/bg2.jfif);
-      background-repeat: no-repeat;
-      background-size: cover;*/
   
   }
     
@@ -145,7 +142,7 @@
     height: 470px;
     width: 300px;
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 250px;
     color: black;
     background-color: black;
     box-shadow: 5px 5px 5px 5px ;
@@ -368,24 +365,23 @@ button{
    font-family: 'san-serif';
    font-size: 20px;
    background-color: #AA076B;
-   color: black;
+   color: white;
    box-shadow: 2px 2px 4px #e29fc8;
    
 }
 .back-btn2:hover{
-   border: 2px solid  #AA076B;;
+   border: 2px solid  #AA076B;
    font-family: 'san-serif';
    font-size: 20px;
-   color:black;
-   background-color: rgb(225, 239, 235);
+   background-color: white;
    transition: 1s;
 }
-a{
+.a{
    text-decoration: none;
-   color:#AA076B;
+   color:white;
 }
-a:hover{
-   color:crimson;
+.a:hover{
+   color:#AA076B;
 }
 
 

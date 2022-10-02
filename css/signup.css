@@ -1,9 +1,8 @@
 body{
-    
-    background-color: rgb(252, 164, 178);
-   /* background-image: url(../images/bg2.jfif);
+    background: url(../images/bgimage1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
+  
 }
 *{
     padding: 0;
@@ -31,11 +30,6 @@ body{
     color: black;
 }
 
-body{
-    background: url('../images/bg2.jfif') no-repeat;
-    background-size: cover;
-    /* background-color: ghostwhite; */
-}
 .registration-form{
     position: absolute;
     top: 50%;

@@ -1,15 +1,8 @@
 body{
-<<<<<<< HEAD
-background-color: rgb(252, 164, 178);
-    /*background: url(../images/bg2.jfif);   */
-=======
-<<<<<<< HEAD
-    margin: 10px;
-    background-color: #F8D49A;
-=======
-    background-image: url(../images/bg2.jfif);   
->>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
->>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
+    background: url(../images/bgimage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
  }
 
 .navbar{ 
@@ -250,7 +243,7 @@ background-color: rgb(252, 164, 178);
 color: antiquewhite;
 border: 1px solid white;
 }
-.a:hover{
+a:hover{
     color :white;
     text-decoration: none;
 =======

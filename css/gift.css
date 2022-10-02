@@ -1,10 +1,10 @@
 
 body{
     
-    background-color: rgb(250, 172, 185);
-    /*background: url(../images/bg2.jfif);
+    
+    background: url(../images/bgimage1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
 }
 .gift{
     height: 200px;
@@ -145,7 +145,7 @@ i{
 }
 .click-btn{
     height: 12%;
-    width: 40%;
+    width: 50%;
     margin: 20%;
     border-radius: 10px ;
     border: 2px solid black;
@@ -153,6 +153,7 @@ i{
     font-size: 20px;
     background-color: #AA076B;
     color: white;
+    justify-content: center;
 }
 .click-btn:hover{
     border: 2px solid  #AA076B;
