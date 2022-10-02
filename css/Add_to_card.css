@@ -4,10 +4,10 @@
     font-family: sans-serif;
 }
 
-.body{
-    width: 100%;
-    background-image: url(../images/bg2.jfif);
-    background-repeat: no-repeat;
+body{
+    /* background-color: rgba(58, 52, 52, 0.329); */
+    background-color:ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
     background-size: cover;
 }
 

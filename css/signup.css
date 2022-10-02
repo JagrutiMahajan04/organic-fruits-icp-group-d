@@ -10,9 +10,9 @@ body{
     font-family: sans-serif;  
     box-sizing:border-box; 
     
+
 }
 
-<<<<<<< HEAD
 .login-btn{
     text-decoration: none;
 }
@@ -28,10 +28,10 @@ body{
 }
 
 body{
-    background-color: ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
+    background-size: cover;
+    /* background-color: ghostwhite; */
 }
-=======
->>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
 .registration-form{
     position: absolute;
     top: 50%;
@@ -40,8 +40,8 @@ body{
     transform: translate(-50%, -50%);
     width: 300px;   
     /* border-radius: 14px; */
-    border: rgb(250,106,123) solid;
-    box-shadow: rgb(250,106,123) 8px 8px 5px;
+    border: solid rgb(250, 106, 123);
+    box-shadow: rgb(250, 23, 35) 8px 8px 5px;
 }
 
 
@@ -81,6 +81,8 @@ body{
     border-radius: 7px;
     border:none;
     margin-bottom: 10px;
+    border: solid rgb(250, 106, 123);
+
 }
 
 .registration-form button:hover{

@@ -4,14 +4,13 @@
     font-family: sans-serif;
 }
 
-.body{
-    width: 100%;
-    background-image: url(../images/bg2.jfif);
-    background-repeat: no-repeat;
+body{
+    /* background-color: rgba(58, 52, 52, 0.329); */
+    background-color:ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
     background-size: cover;
 }
 
-<<<<<<< HEAD
 .login-btn{
     border: rgb(250,106,123) 2px solid;
     text-decoration: none;
@@ -42,8 +41,6 @@ button{
     padding-right: 3px;
     color: black;
 }
-=======
->>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
 
 .login-form{
     width: 300px;
@@ -59,9 +56,10 @@ button{
     padding: 30px;
     /* background-color: whitesmoke; */
     /* border-radius: 14px; */
-    border: solid rgb(157, 157, 252);
-    box-shadow: darkcyan 8px 8px 5px;
+    border: solid rgb(250, 106, 123);   
     background-color:rgb(241, 248, 250);
+    box-shadow: rgb(250, 23, 35) 8px 8px 5px;
+
 
 }
 
@@ -98,6 +96,8 @@ button{
     border: none;
     border-radius: 5px;
     /* border: 0; */
+    border: solid rgb(250, 106, 123);
+
 
 }
 
