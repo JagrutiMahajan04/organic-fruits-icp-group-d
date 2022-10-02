@@ -25,9 +25,9 @@ body{
     padding: 30px;
     /* background-color: whitesmoke; */
     /* border-radius: 14px; */
-    border: solid rgb(128, 251, 143);
-    box-shadow: rgb(36, 206, 2) 8px 8px 5px;
-    background-color: rgb(241, 248, 250);
+    border: solid rgb(250, 106, 123);
+    box-shadow: rgb(250, 23, 35)  2px 5px; 
+    background-color:  rgb(241, 248, 250);
     border-radius: 6px;
 
 }
@@ -62,8 +62,8 @@ body{
     padding: 10px 15px;
     width: 55%;
     border-radius: 6px;
-    border: solid rgb(128, 251, 143);
-    color: rgb(48, 181, 64);
+    border: solid rgb(250, 106, 123);
+    color: rgb(250, 23, 35)  2px 5px; 
     /* border: 0; */
 
 }
@@ -71,6 +71,6 @@ body{
 .Add-to-card button:hover{
     transition: .3s;
     cursor: pointer;
-    background-color:rgb(44, 221, 12);
-    color: white;
+    background-color:rgb(250, 23, 35)  2px 5px;
+    color:rgb(250, 106, 123);
 }

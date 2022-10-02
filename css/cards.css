@@ -1,5 +1,8 @@
-body{
-    background-color: rgb(201, 192, 200);
+.body{
+    width: 100%;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card-blue{
     background-color: rgb(241, 248, 250);
