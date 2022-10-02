@@ -3,19 +3,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://kit.fontawesome.com/cf3730f9aa.js" crossorigin="anonymous"></script>
     <title>Login Form </title>
     <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
     <div class="login-form">
         <div class="login-formA">
+            <a href="./../index.html"><i class="fa-sharp fa-solid fa-xmark f-awsm"></i></a>
             <h1>login</h1>
             <form action="welcome2.php" method="post">
                 <p>User Name</p>
                 <input type="text" name="username" placeholder="User name" id="username" required>
                 <p>Password</p>
                 <input type="password" name="password" placeholder="Password" id="password" required>
-                <button type="submit"> Login </button>
+                <button type="submit">
+                    <a href="./../index.html" class="login-btn">Login</a>
+                </button>
                 
             </form>
         </div>

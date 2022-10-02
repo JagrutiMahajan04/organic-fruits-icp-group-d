@@ -2,14 +2,15 @@
 <html>
 
 <head>
+    <script src="https://kit.fontawesome.com/cf3730f9aa.js" crossorigin="anonymous"></script>
     <title>Registration form </title>
     <link rel="stylesheet" type="text/css" href="../css/signup.css">
 </head>
 <body>
-    <div><img class="gift" src="images/fresh_fruits logo.jpg"></div>
+    <div><img class="gift" src="images/fresh_fruits logo.jpg"></div> 
 <div class="registration-form">
     <div class="registration-formA">
-
+        <a href="./../index.html"><i class="fa-sharp fa-solid fa-xmark f-awsm"></i></a>
         <h1>signup</h1>     
         <form action="./signup.php" method="POST">
             <p>Full Name:</p>
@@ -20,7 +21,9 @@
             <input type="password" name="password" placeholder="password" id="password" required>
             <p>confirm password:</p>
             <input type="password" name="Cpassword" placeholder="Cpassword" id="Cpassword" required>
-            <button type="submit">Signup</button>
+            <button type="submit">
+                <a href="./login.html" class="login-btn">Signup</a>
+            </button>
         </form>
     </div>
 
