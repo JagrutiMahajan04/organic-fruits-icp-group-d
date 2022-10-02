@@ -5,11 +5,18 @@
 }
 
 body{
+<<<<<<< HEAD
     
     background-color: rgb(252, 164, 178);
     /*background-image: url(../images/bg2.jfif);
     background-repeat: no-repeat;
     background-size: cover;*/
+=======
+    /* background-color: rgba(58, 52, 52, 0.329); */
+    background-color:ghostwhite;
+    background: url('../images/bg2.jfif') no-repeat;
+    background-size: cover;
+>>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
 }
 
 .Add-to-card{

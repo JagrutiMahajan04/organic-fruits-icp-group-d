@@ -1,9 +1,18 @@
 body{
+<<<<<<< HEAD
 background-color: rgb(252, 164, 178);
     /*background: url(../images/bg2.jfif);   */
+=======
+<<<<<<< HEAD
+    margin: 10px;
+    background-color: #F8D49A;
+=======
+    background-image: url(../images/bg2.jfif);   
+>>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
+>>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
  }
 
-.navbar{
+.navbar{ 
     height: 80px;
     width: 100%;
     display: flex; 
@@ -125,8 +134,6 @@ background-color: rgb(252, 164, 178);
    
  }
  
-    
- 
  .container3{
     height: 100px;
     width: 100%;
@@ -191,7 +198,7 @@ background-color: rgb(252, 164, 178);
     height: 500px;
     width: 100%;
     display: flex;
-    background-color: white;
+    background-color: #F8D49A;
     margin-top: -0px;
 }
 .left-homeimage{
@@ -239,12 +246,22 @@ background-color: rgb(252, 164, 178);
     font-size: 15px; 
 }
 .sign-up:hover{
+<<<<<<< HEAD
 color: antiquewhite;
 border: 1px solid white;
 }
 .a:hover{
     color :white;
     text-decoration: none;
+=======
+    text-decoration:underline;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.or{
+    margin-left: 5px;
+    margin-right: 5px;
+>>>>>>> f2005a1700bf2856a77d41516397759a53ea85b8
 }
 .log-sign{
     margin-top: 15px;

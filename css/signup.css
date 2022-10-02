@@ -11,8 +11,28 @@ body{
     font-family: sans-serif;  
     box-sizing:border-box; 
     
+
 }
 
+.login-btn{
+    text-decoration: none;
+}
+
+.f-awsm{
+    margin-left: 240px;
+    margin-top: 10px ;
+    border: 1px solid black;
+    border-radius: 25%;
+    padding-left: 3px;
+    padding-right: 5px;
+    color: black;
+}
+
+body{
+    background: url('../images/bg2.jfif') no-repeat;
+    background-size: cover;
+    /* background-color: ghostwhite; */
+}
 .registration-form{
     position: absolute;
     top: 50%;
@@ -21,8 +41,8 @@ body{
     transform: translate(-50%, -50%);
     width: 300px;   
     /* border-radius: 14px; */
-    border: solid rgb(157, 157, 252);
-    box-shadow: darkcyan 8px 8px 5px;
+    border: solid rgb(250, 106, 123);
+    box-shadow: rgb(250, 23, 35) 8px 8px 5px;
 }
 
 
@@ -62,6 +82,8 @@ body{
     border-radius: 7px;
     border:none;
     margin-bottom: 10px;
+    border: solid rgb(250, 106, 123);
+
 }
 
 .registration-form button:hover{

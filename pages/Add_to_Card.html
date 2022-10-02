@@ -3,12 +3,24 @@
     <head>
     <title>Add to Card </title>
     <link rel="stylesheet" type="text/css" href="../css/Add_to_card.css">
+    <script src="https://kit.fontawesome.com/5f59e0296b.js" crossorigin="anonymous"></script>
+    <style>
+        .icon{
+            display: flex;
+            justify-content: end;
+            margin-top: -5px;  
+            margin-right: -3px;
+
+        }
+        </style>
 </head>
 <body>
     
     <div class="Add-to-card">
         <div class="Add-to-cardA">
-            <h1 style="color:rgb(242, 32, 67)">Order</h1>
+            <a href="../index.html"> <i class="fa-regular fa-circle-xmark icon"></i></a>
+
+            <h1>Order</h1>
             <form action="welcome2.php" method="post">
                 <p>Name</p>
                 <input type="text" name="username" placeholder="Name of Customer" id="username" required>
