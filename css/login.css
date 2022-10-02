@@ -4,11 +4,14 @@
     font-family: sans-serif;
 }
 
-body{
-    /* background-color: rgba(58, 52, 52, 0.329); */
-    background-color:ghostwhite;
+.body{
+    width: 100%;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+<<<<<<< HEAD
 .login-btn{
     border: rgb(250,106,123) 2px solid;
     text-decoration: none;
@@ -39,6 +42,8 @@ button{
     padding-right: 3px;
     color: black;
 }
+=======
+>>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
 
 .login-form{
     width: 300px;

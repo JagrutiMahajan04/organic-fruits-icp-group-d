@@ -1,3 +1,9 @@
+body{
+    width: 100%;
+    background-image: url(../images/bg2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +12,7 @@
     
 }
 
+<<<<<<< HEAD
 .login-btn{
     text-decoration: none;
 }
@@ -23,6 +30,8 @@
 body{
     background-color: ghostwhite;
 }
+=======
+>>>>>>> 22c4da5155e9bde5ffe880e5fd50001fbcf491d0
 .registration-form{
     position: absolute;
     top: 50%;
