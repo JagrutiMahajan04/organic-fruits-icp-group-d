@@ -13,18 +13,19 @@ body{
     background-color:pink;
 }
 
-.product-head{
-    border: 2px solid rgb(13, 243, 13);
-    background-color: rgb(165, 252, 139);
-    color: rgb(0, 106, 255);
-    height: 10%;
-    width: 20%;
+.product-head-contact{
+    border: 2px solid white;
+    background-color: rgb(250, 40, 75);
+    height: 40px;
+    width: 180px;
+    color: white;
+    font-size: 30px;
     margin-left:40%;
-    border-radius: 4px ;
+    border-radius: 30px ;
     padding-top:2px;
     padding-bottom: px;
     margin-top:40px;
-    box-shadow: 2px 2px 4px rgb(1, 165, 1);
+    box-shadow: 2px 2px 4px  rgb(250,106,123);
     text-align: center;
  }
      
@@ -65,10 +66,13 @@ body{
     font-weight: bold;
 }
 .Map{
-    margin-left: 500px;
+    margin-left: 800px;
     margin-top: -550px;
-    border: 15px solid white;
+    border-radius: 4px;
     margin-right: 72px;
+    border: 1px solid white;
+    width: 600px;
+    margin-bottom: -8px;
 }
 .Best-organic-food{
     font-size: 20px;
@@ -79,4 +83,31 @@ body{
 .Best-organic-food-info{
     font-size: 15px;
     text-align: center;
+}
+.back-btn-contact{
+    height: 30px;
+    width: 6%;
+    margin-top: 20px;
+    margin-left: 47%;
+    border-radius: 10px ;
+    border: 2px solid white;
+    font-family: 'san-serif';
+    font-size: 20px;
+    background-color: rgb(248, 7, 47);
+    color: white;
+    box-shadow: 2px 2px 4px rgb(250,106,123);
+    
+}
+.back-btn-contact:hover{
+    border: 2px solid rgb(248, 7, 47);
+    font-family: 'san-serif';
+    font-size: 20px;
+    color: rgb(248, 7, 47);
+    background-color:white;
+    transition: 1s;
+}
+
+.contact-text{
+    color:white;
+    text-decoration: none;
 }
